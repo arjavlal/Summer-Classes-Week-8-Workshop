@@ -485,6 +485,18 @@ const projectSpecsData = {
             "Security: Role-based admin access control & error logging"
         ],
         details: "A modular CLI application designed for pharmacy inventory tracking. Handles low-stock threshold alerts, customer invoice generation, and modular file imports to maintain persistent stock levels across sessions."
+    },
+    asteroidblitz: {
+        title: "Asteroid Blitz (JavaScript Canvas Game)",
+        category: "Game Development & Interactive Graphics",
+        specs: [
+            "Rendering: HTML5 Canvas 2D with a 60fps requestAnimationFrame game loop",
+            "Physics: Custom vector-based thrust, momentum, and screen-wrap movement",
+            "Collision System: Circle-based hit detection between ship, asteroids, and projectiles",
+            "Effects: Particle-based explosion system and dynamic difficulty scaling per wave",
+            "Persistence: LocalStorage-backed high-score leaderboard with no backend required"
+        ],
+        details: "A ground-up recreation of the classic arcade asteroid shooter, built entirely with vanilla JavaScript and the Canvas API. Players pilot a ship through waves of procedurally spawned asteroids, with escalating difficulty, a lives system, and combo-based scoring. The engine cleanly separates rendering, input handling, and game state logic to keep the frame loop performant."
     }
 };
 
